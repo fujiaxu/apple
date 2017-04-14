@@ -1,0 +1,377 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	font-family: "苹方","微软雅黑";
+}
+nav{
+	width: 100%;
+	height: 44px;
+	background: #303030;
+}
+.navBox{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: justify;
+	line-height: 44px;	
+	/* background: orange; */
+}
+.navBox .con:after{
+	display: inline-block;
+	content: "";
+	width: 100%;
+}
+.icon-iconfonticonfontpingguo:before{
+	font-size: 20px;
+}
+.icon-search:before{
+	font-size: 25px;
+}
+.navBox ul:nth-child(1) li{
+	display: inline-block;
+}
+.navBox a{
+	color: white;
+	font-size: 13px;	
+}
+.navBox ul:nth-child(2) li{
+	width: 33.33%;
+	display: block;
+	float: left;
+	text-align: center;
+}
+.navBox ul:nth-child(2){
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.navBox ul:nth-child(2) li:nth-child(1){
+	text-align: left;
+}
+.navBox ul:nth-child(2) li:nth-child(3){
+	text-align: right;
+}
+.navBox ul{
+	width: 100%;
+	height: 100%;
+}
+.bannerBox{
+	width: 100%;
+	height: 540px;
+	background: #cc3341;
+	text-align: center;
+	background-image: url('../img/iphone7_large.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center 180px;
+}
+.displayBox{
+	width: 100%;
+	overflow: hidden;
+}
+.displayBox li{
+	width: 25%;
+	height: 200px;
+	border: 2px solid white;
+	box-sizing: border-box;
+	/* background: pink; */
+	float: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.displayBox li:nth-child(1){
+	background-image: url('../img/a_large.jpg');
+}
+.displayBox li:nth-child(2){
+	background-image: url('../img/i_large.jpg');
+}
+.displayBox li:nth-child(3){
+	background-image: url('../img/s_large.jpg');
+}
+.displayBox li:nth-child(4){
+	background-image: url('../img/w_large.jpg');
+}
+/* .displayBox li:nth-child(1),li:nth-child(2),li:nth-child(3){
+	border-right: 0px;
+}
+.displayBox li:nth-child(1),li:nth-child(2),li:nth-child(3),li:nth-child(4){
+	border-bottom: 0px;
+} */
+footer{
+	width: 100%;
+	height: 421px;
+	background: #f2f2f2; 
+}
+.footerBox{
+	width: 980px;
+	height: 401px;
+	/* background: blue; */
+	margin: 0 auto;
+}
+.footerBox_top{
+	width: 100%;
+	height: 49px;
+	border-bottom: 1px solid #D6D6D6;
+	line-height: 50px;
+	color: #888888;
+	font-size: 12px;
+}
+.footerBox_mid{
+	width: 100%;
+	height: 225px;
+	padding-top: 20px;
+	/* background: pink; */
+}
+.footerBox_mid_one{
+	width: 20%;
+	float: left;
+}
+.footerBox_mid_one li{
+	width: 100%;
+	height: 15px;
+	margin-bottom: 6px;
+	font-size: 6px;
+	color: #555555;
+}
+.footerBox_mid_one li:nth-child(1){
+	font-size: 6px;
+	color: black;
+	font-weight: bolder;
+}
+.footerBox_mid_one .rmargin{
+	margin-bottom: 30px;
+}
+.footerBox_bot{
+	width: 100%;
+	height: 54px;
+	/* background: yellow; */
+	padding-top: 24px;
+	padding-bottom: 21px;
+}
+.footerBox_bot_one{
+	width: 100%;
+	height: 17px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #D6D6D6;
+	margin-bottom: 7px;
+	color: #888888;
+	font-size: 10px;
+}
+.footerBox_bot_one em{
+	font-style: normal;
+	color: #0070C9;
+}
+.footerBox_bot_two{
+	width: 100%;
+	height: 23px;
+	/* background: pink; */
+	color: #888888;
+	font-size: 10px;
+}
+.footerBox_bot_two_left{
+	width: 274px;
+	height: 17px;
+	display: inline-block;
+	float: left;
+}
+.footerBox_bot_two a{
+	display: inline-block;
+	width: 60px;
+	height: 17px;
+	margin-right: 5px;
+	border-right: 1px solid #D6D6D6;
+	color: #555555;
+	font-size: 10px;
+	float: left;
+} 
+.footerBox_bot_two .border-right{
+	border-right: 0px;
+}
+.footerBox_bot_two_right a{
+	width: 25px;
+	display: block;
+	float: right;
+	border-right: 0px;
+	margin-right: 0px;
+	text-decoration: underline;
+} 
+.footerBox_bot_three{
+	width: 100%;
+	height: 17px;
+	font-size: 10px;
+	color: #999999;
+} 
+
+.r_footer{
+	width: 698px;
+	height: 488px;
+	background: #F2F2F2;
+	padding: 0 16px;
+	box-sizing: border-box;
+	display: none;
+}
+.r_footer .footerBox_mid{
+	height: 273px;
+	padding-top: 20px;
+}
+.r_footerBox_mid li{
+	display: inline-block;
+	text-align: left;
+	width: 100%;
+	height: 17px;
+	padding: 10px 0px;
+	border-bottom: 1px solid #D6D6D6;
+	/* background: red; */
+	font-size: 10px;
+
+}
+.r_footerBox_mid li:after{
+	content: "+";
+	float: right;
+	font-size: 14px;
+	margin-right: 8px;
+}
+.r_footerBox_bot{
+	width: 100%;
+	height: 107px;
+	/* background: red; */
+	padding-top: 22px;
+	padding-bottom: 19px;
+}
+.r_footerBox_bot_one{
+	width: 100%;
+	height: 17px;
+	padding-bottom: 6px;
+	margin-bottom: 7px;
+	font-size: 10px;
+	color: #888888;
+}
+.r_footerBox_bot_one em{
+	font-style: normal;
+	color: #0070C9;
+}
+.r_footerBox_bot_two{
+	width: 100%;
+	height: 17px;
+	padding-top: 5px;
+	margin-top: 3px;
+	font-size: 10px;
+}
+.r_footerBox_bot_three{
+	width: 100%;
+	height: 17px;
+	margin-top: 3px;
+	font-size: 10px;
+	color: #888888;
+}
+.r_footerBox_bot_four{
+	width: 100%;
+	height: 20px;
+	margin-top: 3px;
+}
+.r_footerBox_bot_four a{
+	display: inline-block;
+	width: 55px;
+	height: 17px;
+	margin-right: 8px;
+	border-right: 1px solid #D6D6D6;
+	color: #555555;
+	font-size: 10px;
+	float: left;
+}
+.r_footerBox_bot_five{
+	width: 100%;
+	height: 17px;
+	margin: 6px 0px;
+	font-size: 10px;
+	color: #888888;
+} 
+@media screen and (max-width: 1050px){
+	.navBox{
+		width: 100%;
+		height: 44px;
+		padding: 0 15px;
+		box-sizing: border-box;
+	}
+	.bannerBox{
+		height: 455px;
+		background-image: url('../img/iphone7_medium.png');
+	}
+	.displayBox li{
+		width: 50%;
+	}
+	.displayBox li:nth-child(1){
+		background-image: url('../img/a_medium.jpg');
+	}
+	.displayBox li:nth-child(2){
+		background-image: url('../img/i_medium.jpg');
+	}
+	.displayBox li:nth-child(3){
+		background-image: url('../img/s_medium.jpg');
+	}
+	.displayBox li:nth-child(4){
+		background-image: url('../img/w_medium.jpg');
+	}
+	footer{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0px 16px;
+	}
+	.footerBox{
+		width: 100%;
+	}
+	.footerBox_top{
+		width: 100%;
+	}
+	.footerBox_mid{
+		width: 100%;
+	}
+	.footerBox_bot{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 715px){
+	.navBox ul:nth-child(1){
+		display: none;
+	}
+	.navBox ul:nth-child(2){
+		display: block;
+	}
+	.bannerBox{
+		height: 375px;
+		background-image: url('../img/iphone7_small.png');
+	}
+	.displayBox li{
+		width: 100%;
+	}
+	.displayBox li:nth-child(1){
+		background-image: url('../img/a_small.jpg');
+	}
+	.displayBox li:nth-child(2){
+		background-image: url('../img/i_small.jpg');
+	}
+	.displayBox li:nth-child(3){
+		background-image: url('../img/s_small.jpg');
+	}
+	.displayBox li:nth-child(4){
+		background-image: url('../img/w_small.jpg');
+	}
+	footer{
+		display: none;
+	}
+	.r_footer{
+		display: block;
+	}
+	.r_footer{
+		height: 522px;
+		width: 100%;
+	}
+	.r_footer .footerBox_top{
+		padding-top: 20px;
+		height: 60px;
+		line-height: 20px;
+	}
+}
